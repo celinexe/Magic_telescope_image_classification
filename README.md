@@ -11,7 +11,7 @@ The MAGIC Gamma dataset originates from observations made by the MAGIC (Major At
 
 
 
-###Feature Extraction  
+### Feature Extraction  
 
 This dataset is extracted from Kaggle: https://www.kaggle.com/datasets/abhinand05/magic-gamma-telescope-dataset
 
