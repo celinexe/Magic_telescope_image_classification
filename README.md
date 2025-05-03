@@ -56,7 +56,7 @@ The complete code, along with the detailed comments, visualizations, and all ste
 Below are the results of the five models. 
 In this problem, classifying a background event(h) as signal (g) is worse than classifying a signal event as background.  Therefore, particular attention was paid to minimizing false positives in the background class. I chose to evaluate my model's performance using the AUC and ROC metrics. 
 
-### conclusion 
+### Conclusion 
 
 ![](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/images/Ccl.png)
 
