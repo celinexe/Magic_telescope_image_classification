@@ -51,14 +51,14 @@ It includes:
 
 For each model, I tried to optimize performance either by adjusting the model's architecture ( e.g, the number of layers in the DNN) or by tuning hyperparameters using Grid Search with Cross-Validation. 
 
-The complete code, along with the detailed comments, visualizations, and all steps of the process is documented in the jupyter notebook. 
+The complete code, along with the detailed comments, visualizations, and all steps of the process is documented in the [jupyter notebook](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/Magic_Gamma_telescope_Classification.ipynb). 
 
 Below are the results of the five models. 
 In this problem, classifying a background event(h) as signal (g) is worse than classifying a signal event as background.  Therefore, particular attention was paid to minimizing false positives in the background class. I chose to evaluate my model's performance using the AUC and ROC metrics. 
 
 ### conclusion 
 
-![]https://github.com/celinexe/Magic_telescope_image_classification/blob/main/images/Ccl.png
+![](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/images/Ccl.png)
 
 Looking at the ROC_auc score, the best model to do our binary classification is obviously XGboost algorithm. 
 We obtain a score of 0.92. 
