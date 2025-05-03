@@ -4,7 +4,7 @@
 
 
 
-###Context
+## Context
 
 The MAGIC Gamma dataset originates from observations made by the MAGIC (Major Atmospheric Gamma Imaging Cherenkov) telescope, which detects gamma rays in the TeV range. The dataset was developed to classify signals into gamma signals (signal) and hadron-induced signals (background). Gamma signals correspond to electromagnetic showers caused by gamma rays, while background signals arise from hadronic cosmic rays, which create more complex showers.
 ![](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/images/detection.png)
