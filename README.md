@@ -8,7 +8,12 @@ This dataset is extracted from Kaggle: https://www.kaggle.com/datasets/abhinand0
 
 Context of the Dataset:
 
-The MAGIC Gamma dataset originates from observations made by the MAGIC (Major Atmospheric Gamma Imaging Cherenkov) telescope, which detects gamma rays in the TeV range. The dataset was developed to classify signals into gamma signals (signal) and hadron-induced signals (background). Gamma signals correspond to electromagnetic showers caused by gamma rays, while background signals arise from hadronic cosmic rays, which create more complex showers.  
+The MAGIC Gamma dataset originates from observations made by the MAGIC (Major Atmospheric Gamma Imaging Cherenkov) telescope, which detects gamma rays in the TeV range. The dataset was developed to classify signals into gamma signals (signal) and hadron-induced signals (background). Gamma signals correspond to electromagnetic showers caused by gamma rays, while background signals arise from hadronic cosmic rays, which create more complex showers.
+
+[](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/images/Parameters.png)
+
+
+
 Feature Extraction  
 
 The dataset contains 11 features derived from Cherenkov light images captured during atmospheric showers. These features quantify properties of the image shape and energy distribution in the Cherenkov camera.
