@@ -58,5 +58,23 @@ In this problem, classifying a background event(h) as signal (g) is worse than c
 
 ### conclusion 
 
+![]https://github.com/celinexe/Magic_telescope_image_classification/blob/main/images/Ccl.png
+
+Looking at the ROC_auc score, the best model to do our binary classification is obviously XGboost algorithm. 
+We obtain a score of 0.92. 
+Lookng at the curve, for a threshold of 0.5, 
+We obtain :
+False Positive Rate: 0.0691 which mean 7% of background events (the negative class H) are incorrectly classified as signal (positive class G). 
+True Positive Rate: 0.7493  which mean that 74% of signal events (positive class G) are correctly identified as signal.
+
+We can compare this to the DNN model which has a roc auc score of 0.90
+at the same threshold of 0.5 ,we observe: 
+False Positive Rate: 0.0902
+True Positive Rate: 0.7262
+
+These 2 models is the only ones that achieve a fpr under <= 0.1 and which the tpr is above 0.7. A Good Ratio.
+
+It is worth noting that XGBoost is currently one of the top-performing models in many Kaggle competitions, reinforcing its strong performance in this context.
+
 
 
