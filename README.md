@@ -7,7 +7,7 @@
 ## Context
 
 The MAGIC Gamma dataset originates from observations made by the MAGIC (Major Atmospheric Gamma Imaging Cherenkov) telescope, which detects gamma rays in the TeV range. The dataset was developed to classify signals into gamma signals (signal) and hadron-induced signals (background). Gamma signals correspond to electromagnetic showers caused by gamma rays, while background signals arise from hadronic cosmic rays, which create more complex showers.
-![](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/images/detection.png)
+![](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/images/detectionIma.png)
 
 
 ### Goals 
@@ -54,7 +54,7 @@ It includes:
 
 For each model, I tried to optimize performance either by adjusting the model's architecture ( e.g, the number of layers in the DNN) or by tuning hyperparameters using Grid Search with Cross-Validation. 
 
-The complete code, along with the detailed comments, visualizations, and all steps of the process is documented in the [jupyter notebook](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/Magic_Gamma_telescope_Classification.ipynb). 
+The complete code, along with the detailed comments, visualizations, and all steps of the process is documented in the [jupyter notebook](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/Magic_notebook.ipynb). 
 
 Below are the results of the five models. 
 In this problem, classifying a background event(h) as signal (g) is worse than classifying a signal event as background.  Therefore, particular attention was paid to minimizing false positives in the background class. I chose to evaluate my model's performance using the AUC and ROC metrics. 
