@@ -10,6 +10,9 @@ The MAGIC Gamma dataset originates from observations made by the MAGIC (Major At
 ![](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/images/detection.png)
 
 
+### Goals 
+
+The goal of this project is to explore and build multiple efficient machine learning models capable of predicting whether an image represents a gamma signal or a hadron signal. Then, the models’ performance will be compared using appropriate evaluation metrics.
 
 ### Feature Extraction  
 
@@ -25,7 +28,7 @@ Key features include:
 * Distance: Distance from the shower axis to the center of the camera.
 * Concentration: Ratio of light intensity in the core of the image.
 * Leakage: Light fraction that leaks outside the camera's field of view.
-* Usage for Classification
+* class: Usage for Classification
 
 ![](https://github.com/celinexe/Magic_telescope_image_classification/blob/main/images/Parameters.png)
 
